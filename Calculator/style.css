@@ -1,0 +1,183 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+.calculator-div{
+    position: relative;
+    width: 550px;
+    height: 750px;
+    margin: 10px;
+    padding: 10px;
+}
+.output{
+    background-color: black;
+    color: ghostwhite;
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    margin: 15px;
+    right: 4px;
+    font-weight: 200;
+}
+
+#delete{
+    color: red;
+}
+.value{
+    color:#ffff;
+    font-weight: 400;
+}
+
+.input{
+    position: absolute;
+    background-color: lightgray;
+    width: 200px;
+    height: 250px;
+    top: 145px;
+    right: 19px;
+    margin-left: 3px;
+    
+}
+
+.row{
+    margin: 5px;
+}
+
+button{
+    margin: 5px;
+    padding-left: 12px;
+    padding-top:8px ;
+    background-color: lightgray;
+    border: lightgray 1px solid;
+    font-size: 15.8px;
+    color: black;
+}
+
+
+<div class="row">
+                        <!-- Total Greams -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <i class="fas fa-bug round-icon"
+                                               </i>
+                                        </div>
+                                        <div class="col-auto" style="padding-bottom: 25px;">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                <h5 style="font-weight:600; font-size: 26px; padding-left: 70px;">567
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--progress bar-->
+                                    <div class="col">
+                                        <div class="mr-2">
+                                            <div class=" bg-info1" role="progressbar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-primary mb-1"
+                                        style="font-weight:500; margin-top:27px; color: #363535; letter-spacing: 0.08984px; font-size: 14px;">
+                                        Malcious Greams</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Total User -->
+
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card  shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <i class="fas fa-exclamation-triangle round-icon"
+                                                style="color: #fff; background-color:#E24C4B; margin-bottom: 25px; font-size: 10px;"></i>
+                                        </div>
+
+                                        <div class="col-auto" style="padding-bottom: 25px;">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                <h5 style="font-weight:600; font-size: 26px; padding-left: 70px;">5,890
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--progress bar-->
+                                    <div class="col">
+                                        <div class=" mr-2">
+                                            <div class=" bg-info1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-xs  text-primary mb-1"
+                                        style="font-weight:500;margin-top:27px; letter-spacing: 0.08984px;font-size: 14px;">
+                                        Total User</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Total Likes -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card  shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <i class="fas fa-exclamation-circle round-icon2"
+                                                style="color: #fff;  background-color:#E24C4B; margin-bottom: 25px; font-size: 10px;"></i>
+                                        </div>
+                                        <div class="col-auto" style="padding-bottom: 25px;">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                <h5 style="font-weight: 600; font-size: 26px; padding-left: 70px;">10
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--progress bar-->
+                                    <div class="col">
+                                        <div class="mr-2">
+                                        </div>
+                                    </div>
+                                    <div class=" text-primary mb-1" style="margin-top:27px; font-size: 14px;">
+                                        Total Likes</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Total Comments -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow h-100 py-2" id="border4">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <i class="fas fa-user-clock round-icon3"
+                                                style="background-color:#E24C4B; color: #fff; margin-bottom: 25px; font-size: 10px;"></i>
+                                        </div>
+                                        <div class="col-auto" style="padding-bottom: 25px;">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                <h5 style="font-weight: 600; font-size: 26px; padding-left:70px;">345
+                                                </h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--progress bar-->
+                                    <div class="col">
+                                        <div class="  text-primary mb-1"
+                                            style="margin-top:27px;  font-weight:500; font-size: 15px;">
+                                            Total Comments</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+ 
