@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+.form-wrap {
+  width: 100%;
+  background-color: #f4f4f4;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.heading-title {
+  color: #474646;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.3px;
+}
+
+.headings {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  color: #b3acac;
+  font-family: serif;
+}
+
+#form {
+  margin-top: 30px;
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.username,
+.emailAddress,
+.password,
+.confirm {
+  margin: 20px 25px;
+}
+.emailAddress input,
+.username input,
+.password input,
+.confirm input {
+  width: 450px;
+  height: 58px;
+  border: 1px solid #f4f4f4;
+  border-bottom: 3px solid #eceaea;
+}
+.password input {
+  margin-right: -56px;
+}
+.username i {
+  color: #474646;
+  margin-top: 10px;
+  margin-left: 5px;
+  position: absolute;
+  top: 3%;
+}
+.emailAddress i {
+  color: #474646;
+  margin-top: 10px;
+  margin-left: 5px;
+  position: absolute;
+  top: 17%;
+}
+
+.password i {
+  color: #474646;
+  margin-top: 10px;
+  margin-left: 5px;
+  position: absolute;
+  top: 38%;
+}
+
+.confirm img {
+  position: absolute;
+  top: 60%;
+  margin-left: 5px;
+  color: #474646;
+}
+
+#show {
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 16px;
+  padding-left: 46px;
+  padding-bottom: -15px;
+}
+
+.btn {
+  width: 410px;
+  height: 50px;
+  border: 1px solid #f4f4f4;
+  background-color: #61b6b6;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.condition,
+span {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color: #b3acac;
+  font-family: serif;
+}
+p strong {
+  color: #61b6b6;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: serif;
+  letter-spacing: 0.5px;
+}
+
+label {
+  color: red;
+  display: none;
+}

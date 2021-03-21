@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSSFolder/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form-wrap">
+      <h1 class="heading-title">Create Account</h1>
+      <h3 class="headings">It's free and hardly takes more than 30 seconds</h3>
+
+      <form onsubmit="return validate()" id="form" action="post">
+        <div class="username">
+          <i class="fa fa-user"></i>
+            <input id="users" type="text" name="username" placeholder="Username">
+            <label id="uname">Invalid, Input username</label>
+          </div>
+
+          <div class="emailAddress">
+            <i class="fa fa-paper-plane"></i>
+              <input id="email" type="email" name="email" placeholder="Email Address">
+              <label id="mail">Invalid, Input Email</label
+            </div>
+
+            <div class="password">
+              <i class="fa fa-lock"> </i>
+                <input id="password" type="password" name="password" placeholder="Password">
+                <label id="passwrd">Invalid, Input Password</label>
+                <label id="pass">Invalid, minimum of 5 character</label>
+                <span id="show" onclick="showPassword()">Show</span>
+               </div>
+
+              <div class="confirm">
+                <img src="../CSSFolder/images/lock-active.svg" width="20" height="20">
+                <input id="confirm" type="password" name="confirm" placeholder="Confirm Password">
+                <label id="conPass">Invalid, password not match</label>
+                
+              </div>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <p class="condition">
+        By clicking the Sign Up button, you agree to our</p> 
+        <p><strong>Terms & conditions</strong>, <span>and</span> <strong>Privacy Policy</strong></p>
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
