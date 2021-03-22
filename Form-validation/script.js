@@ -1,20 +1,3 @@
-// function validate() {
-//   let username = document.getElementById("users");
-//   let emailAdreess = document.getElementById("email");
-//   let password = document.getElementById("password");
-
-//   if (
-//     username.value === "" ||
-//     emailAdreess.value === "" ||
-//     password.value === ""
-//   ) {
-//     alert("No blank values allowed");
-//     return false;
-//   } else {
-//     true;
-//   }
-// }
-
 function validate() {
   let username = document.getElementById("users");
   let emailAdreess = document.getElementById("email");
@@ -40,7 +23,8 @@ function validate() {
     confirm.style.border = "solid 3px red";
     document.getElementById("conpass").style.display = "Block";
     return false;
-  } else if (confirm.value.trim() === password.value.trim()) {
+  } else if (confirm.value.trim() !== password.value.trim()) {
+    confirm.style.border = "solid 3px red";
     document.getElementById("conpass").style.display = "Block";
     return false;
   } else {
